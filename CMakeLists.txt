@@ -61,8 +61,8 @@ target_include_directories(${PROJECT_NAME}
 #		Include Files From Within the Workspace Folder
 
 target_link_directories(${PROJECT_NAME} 
-	PRIVATE ${GLFW_ROOT_DIR}/src
-	PRIVATE ${GLAD_ROOT_DIR}/src}
+    PRIVATE ${GLFW_ROOT_DIR}/src
+    PRIVATE ${GLAD_ROOT_DIR}/src
 )
 
 # Add the Libs to the Linker for the Project
