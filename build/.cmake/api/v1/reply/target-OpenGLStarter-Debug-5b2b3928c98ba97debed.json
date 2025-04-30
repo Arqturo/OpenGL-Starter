@@ -30,25 +30,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 20,
+				"line" : 16,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 63,
+				"line" : 38,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 70,
+				"line" : 49,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 47,
+				"line" : 43,
 				"parent" : 0
 			}
 		]
@@ -70,17 +70,17 @@
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/usuario/Documents/work/work2/OpenGL-Starter/external/glad/include/glad"
-				},
-				{
-					"backtrace" : 3,
 					"path" : "C:/Users/usuario/Documents/work/work2/OpenGL-Starter/external/glad/include"
 				}
 			],
 			"language" : "CXX",
 			"sourceIndexes" : 
 			[
-				0
+				4,
+				5,
+				6,
+				7,
+				8
 			]
 		}
 	],
@@ -88,11 +88,11 @@
 	[
 		{
 			"backtrace" : 3,
-			"id" : "glfw::@ca12bac854c2ac6b2230"
+			"id" : "glad::@55512df44c152ef9a2ca"
 		},
 		{
 			"backtrace" : 3,
-			"id" : "glad::@55512df44c152ef9a2ca"
+			"id" : "glfw::@ca12bac854c2ac6b2230"
 		}
 	],
 	"id" : "OpenGLStarter::@6890427a1f51a3e7e1df",
@@ -115,7 +115,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LC:\\Users\\usuario\\Documents\\work\\work2\\OpenGL-Starter\\external\\glad\\src}",
+				"fragment" : "-LC:\\Users\\usuario\\Documents\\work\\work2\\OpenGL-Starter\\external\\glad\\src",
 				"role" : "libraryPath"
 			},
 			{
@@ -150,10 +150,24 @@
 	"sourceGroups" : 
 	[
 		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		},
+		{
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				4,
+				5,
+				6,
+				7,
+				8
 			]
 		}
 	],
@@ -161,9 +175,53 @@
 	[
 		{
 			"backtrace" : 1,
+			"path" : "src/EBO.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/VAO.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/VBO.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/shaderClass.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/EBO.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/VAO.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/VBO.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/main.cpp",
-			"sourceGroupIndex" : 0
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/shaderClass.cpp",
+			"sourceGroupIndex" : 1
 		}
 	],
 	"type" : "EXECUTABLE"
